@@ -1,0 +1,120 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.about {
+    padding: 20px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.about_bgc {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.ribbon a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.ribbon a:hover {
+    color: #e8491d;
+}
+
+.me {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: inline-block;
+}
+
+.me_img {
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.me_tit {
+    font-size: 20px;
+    color: #333;
+    display: block;
+    margin-top: 10px;
+}
+
+.videos {
+    margin-top: 20px;
+}
+
+.videos video {
+    width: 100%;
+    max-height: 500px;
+    border-radius: 10px;
+}
+
+/* 动画效果 */
+.animate {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .me_img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .videos video {
+        height: auto;
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: transform 0.3s ease; /* 平滑过渡效果 */
+}
+
+/* 当鼠标悬停在输入框上时，输入框向上移动 */
+.form-group input[type="text"]:hover,
+.form-group input[type="email"]:hover,
+.form-group textarea:hover {
+    transform: translateY(-5px); /* 向上移动5px */
+}
+
+/* 可选：添加阴影效果，让躲避看起来更明显 */
+.form-group input[type="text"]:hover,
+.form-group input[type="email"]:hover,
+.form-group textarea:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* 鼠标悬停时，输入框上移并增加阴影效果 */
+.form-control:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+    }
+}
